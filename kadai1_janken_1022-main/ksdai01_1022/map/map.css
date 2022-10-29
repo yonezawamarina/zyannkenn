@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+table.jp-map {
+	width: 80%;
+	height: 80%;
+	}
+	table.jp-map,
+	table.jp-map td,
+	table.jp-map th {
+	border-collapse: collapse;
+	}
+	table.jp-map td,
+	table.jp-map th {
+	padding: 10px;
+	text-align: center;
+	}
+	table.jp-map td[class] {
+	border: 1px solid #fff;
+	}
+	table.jp-map td a {
+	color: #ffffff;
+	text-decoration: none;
+	}
+	.hokkaido {
+	background-color: #333333aa;
+	}
+	.tohoku {
+	background-color: #333333aa;
+	}
+	.kanto {
+	background-color: #333333aa;
+	}
+	.chubu {
+	background-color: #333333aa;
+	}
+	.kinki {
+	background-color: #333333aa;
+	}
+	.chugoku {
+	background-color: #333333aa;
+	}
+	.shikoku {
+	background-color: #333333aa;
+	}
+	.kyushu {
+	background-color: #333333aa;
+	}
+	.okinawa {
+	background-color: #333333aa;
+	}

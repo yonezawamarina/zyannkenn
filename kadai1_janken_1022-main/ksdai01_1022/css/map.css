@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'MyFont';
+	src: url(font/g_brushtappitsu_free_012/g_brushtappitsu_freeB.ttf);
+}
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    background-color: #333;
+    display: flex;
+    margin: auto;
+}
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/kohchimade.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+}
+.jp-map{
+    position: relative;
+    top: 100px;
+}
+.thema {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+}
+.modoru{
+	font-family: 'MyFont';
+    position: absolute;
+    font-size: 4rem;
+    color: #055;
+    background-color: #fff;
+    top: 3%;
+    left: 20%;
+}
